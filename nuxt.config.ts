@@ -1,13 +1,5 @@
 export default defineNuxtConfig({
-	modules: [
-		'@pinia/nuxt',
-		'@vueuse/nuxt',
-		'@nuxt/devtools',
-		// '@nuxtjs/i18n',
-	],
-	/* piniaPersistedstate: {
-		storage: 'localStorage',
-	}, */
+	modules: ['@vueuse/nuxt', '@nuxt/devtools'],
 	build: {},
 	nitro: {
 		preset: 'vercel-edge',
