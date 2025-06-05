@@ -32,7 +32,7 @@
   "devDependencies": {
     "@nuxt/devtools": "^1.6.0",
     "@nuxtjs/eslint-config-typescript": "^12.1.0",
-    "@nuxtjs/i18n": "8.5.5",
+    "@nuxtjs/i18n": "9.5.5",
     "@tailwindcss/typography": "^0.5.15",
     "@types/node": "^22.8.1",
     "@typescript-eslint/eslint-plugin": "^7.18.0",
