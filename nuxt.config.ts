@@ -2,7 +2,7 @@ export default defineNuxtConfig({
 	modules: ['@vueuse/nuxt', '@nuxt/devtools'],
 	build: {},
 	nitro: {
-		preset: 'cloudflare_module',
+		preset: 'cloudflare_pages',
 		cloudflare: {
 			deployConfig: true,
 			nodeCompat: true,
