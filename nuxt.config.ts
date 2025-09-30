@@ -2,7 +2,11 @@ export default defineNuxtConfig({
 	modules: ['@vueuse/nuxt', '@nuxt/devtools'],
 	build: {},
 	nitro: {
-		preset: 'vercel-edge',
+		preset: 'cloudflare_module',
+		cloudflare: {
+			deployConfig: true,
+			nodeCompat: true,
+		},
 	},
 	postcss: {
 		plugins: {
