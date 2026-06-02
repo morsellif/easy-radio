@@ -1,12 +1,12 @@
-name: "Setup and install"
-description: "Common setup steps for Actions"
+name: 'Setup and install'
+description: 'Common setup steps for Actions'
 
 runs:
   using: composite
   steps:
-    - uses: actions/setup-node@v4
+    - uses: actions/setup-node@v6
       with:
-        node-version: 18
+        node-version: 24
 
     - name: Setup bun
       uses: oven-sh/setup-bun@v2
