@@ -22,7 +22,7 @@ const type = ref(''); // route.query.type as string;
 function isHlsSupportedNatively() {
 	return Boolean(
 		media.value!.canPlayType('application/vnd.apple.mpegURL') ||
-			media.value!.canPlayType('audio/mpegurl'),
+		media.value!.canPlayType('audio/mpegurl'),
 	);
 }
 
