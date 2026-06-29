@@ -23,9 +23,9 @@
 	},
 	"dependencies": {
 		"@headlessui/vue": "^1.7.23",
-		"axios": "1.18.0",
+		"axios": "1.18.1",
 		"hls.js": "^1.6.16",
-		"vue": "^3.5.38",
+		"vue": "^3.5.39",
 		"vue-router": "^4.6.4",
 		"nuxt": "^4.4.8"
 	},
@@ -39,7 +39,7 @@
 		"@typescript-eslint/parser": "^7.18.0",
 		"@vueuse/core": "^11.3.0",
 		"@vueuse/nuxt": "^11.3.0",
-		"autoprefixer": "^10.5.0",
+		"autoprefixer": "^10.5.2",
 		"cssnano": "^7.1.9",
 		"eslint": "^8.57.1",
 		"eslint-config-prettier": "^9.1.2",
@@ -48,13 +48,13 @@
 		"husky": "^9.1.7",
 		"lint-staged": "^15.5.2",
 		"only-allow": "^1.2.2",
-		"postcss": "^8.5.15",
-		"prettier": "^3.8.4",
+		"postcss": "^8.5.16",
+		"prettier": "^3.9.1",
 		"tailwindcss": "^3.4.19",
 		"typescript": "^5.9.3",
 		"vue-eslint-parser": "^9.4.3",
 		"vue-tsc": "^2.2.12",
-		"wrangler": "^4.103.0"
+		"wrangler": "^4.105.0"
 	},
 	"lint-staged": {
 		"*.{js,jsx,ts,tsx,vue}": [
