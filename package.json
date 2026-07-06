@@ -49,12 +49,12 @@
 		"lint-staged": "^15.5.2",
 		"only-allow": "^1.2.2",
 		"postcss": "^8.5.16",
-		"prettier": "^3.9.1",
+		"prettier": "^3.9.4",
 		"tailwindcss": "^3.4.19",
 		"typescript": "^5.9.3",
 		"vue-eslint-parser": "^9.4.3",
 		"vue-tsc": "^2.2.12",
-		"wrangler": "^4.105.0"
+		"wrangler": "^4.107.0"
 	},
 	"lint-staged": {
 		"*.{js,jsx,ts,tsx,vue}": [
