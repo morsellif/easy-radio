@@ -48,13 +48,13 @@
 		"husky": "^9.1.7",
 		"lint-staged": "^15.5.2",
 		"only-allow": "^1.2.2",
-		"postcss": "^8.5.20",
-		"prettier": "^3.9.5",
+		"postcss": "^8.5.23",
+		"prettier": "^3.9.6",
 		"tailwindcss": "^3.4.19",
 		"typescript": "^5.9.3",
 		"vue-eslint-parser": "^9.4.3",
 		"vue-tsc": "^2.2.12",
-		"wrangler": "^4.112.0"
+		"wrangler": "^4.114.0"
 	},
 	"lint-staged": {
 		"*.{js,jsx,ts,tsx,vue}": [
